@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>只有敬亭山</title>
+<style type="text/css">
+body,td,th {
+    font-family: "標楷體";
+}
+</style>
+</head>
+
+<body bgcolor="#FEEBDC">
+<form method="post" enctype="multipart/form-data" name="form1" id="form1">
+  
+   <p>
+    <label for="date">日期:</label>
+    <input type="date" name="date" id="date">
+  </p>
+  <p>
+    <label for="email">姓名:</label>
+    <input type="email" name="email" id="email">
+  </p>
+  <p>
+    <label for="name">電子信箱:</label>
+    <input type="text" name="name" id="name">
+  </p>
+  <p>
+    <label>
+      <input name="gender" type="radio" id="gender_0" value="female" checked>
+      女性</label>
+    <label>
+      <input type="radio" name="gender" value="men" id="gender_1">
+      男性</label>
+    <label>
+      <input type="radio" name="gender" value="unknown" id="gender_2">
+      其他</label>
+  </p>
+  <p>
+    <label for="textarea">意見回饋:</label>
+    <textarea name="textarea" id="textarea"></textarea>
+  </p>
+  <p><img src="image/李白.jpg" width="173" height="250" alt=""/></p>
+  
+  <input name="submit" type="submit" id="submit" formaction="mailto:siweuk@gmail" formenctype="multipart/form-data" formmethod="POST">   
+  <input type="reset">
+</form>
+</body>
